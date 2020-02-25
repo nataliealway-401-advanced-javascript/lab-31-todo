@@ -1,12 +1,12 @@
-# restY 
+# Lab 31: Todo App
 
 ## Author: Natalie Alway
 
 ### Links and Resources
-* [submission PR]()
+* [submission PR](https://github.com/nataliealway-401-advanced-javascript/lab-31-todo/pull/1)
 <!-- * [Travis]()
 * [jsdocs]() -->
-* [Code Sandbox](https://codesandbox.io/s/kind-forest-zbtvc)
+* [Code Sandbox](https://codesandbox.io/s/lab-31-todo-app-lx4ek)
 <!-- * [Deployment]() -->
 
 # Components
