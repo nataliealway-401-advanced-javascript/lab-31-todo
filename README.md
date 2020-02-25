@@ -23,8 +23,4 @@
 * `npm test`
 
 #### UML
-<<<<<<< HEAD
 ![UML](./src/assets/lab31UML.jpg)
-=======
-![UML]()
->>>>>>> ef69c3edada76397458336f07189a338de059234
