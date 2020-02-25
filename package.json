@@ -1,0 +1,41 @@
+{
+  "name": "lab-31-todo-app",
+  "version": "1.0.0",
+  "description": "React todo application",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "node-sass": "^4.13.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-jsonschema-form": "1.8.0",
+    "react-router-dom": "5.0.1",
+    "react-scripts": "3.0.1",
+    "uuid": "3.3.3"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliealway-401-advanced-javascript/lab-31-todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nataliealway-401-advanced-javascript/lab-31-todo/issues"
+  },
+  "homepage": "https://github.com/nataliealway-401-advanced-javascript/lab-31-todo#readme"
+}

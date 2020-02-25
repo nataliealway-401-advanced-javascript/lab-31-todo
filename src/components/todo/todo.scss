@@ -1,0 +1,116 @@
+body, html {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#todoHeader {
+    font-family: 'PT Mono', ;
+    background-color: #eee;
+}
+
+.todo-details {
+    display:flex;
+    flex-direction:column;
+
+    header {
+        font-family: 'Unica One';
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        padding:.5em 1em;
+    }
+
+    #todoHeader {
+    font-family: 'Unica One';
+    font-size: 50px;
+    }
+
+
+    .item {
+        flex:1;
+        padding: 1em;
+    }
+
+}
+
+.todo {
+    font-family: 'PT Mono', ;
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    margin: 2em;
+
+    h3 {
+        font-family: 'Unica One';
+        font-size: 30px;
+        background-color: rgba(134, 182, 182, 0.534);
+    }
+
+    form {
+
+        display:flex;
+        flex-direction:column;
+        margin-right: 2em;
+
+        label {
+            display: flex;
+            flex-direction:column;
+            margin-bottom: 1em;
+            background-color: rgba(134, 182, 182, 0.205);
+        }
+    }
+
+    ul {
+        list-style-type:none;
+        margin:0;
+        padding:0;
+
+        li {
+
+            align-items: center;
+            display:flex;
+            flex-direction:row;
+            font-size: .75em;
+            margin: .75em .5em;
+
+            &.complete-true {
+              span {
+                background: rgba(46, 139, 86, 0.335);
+                text-decoration:line-through;
+                &:hover {
+                   background: rgba(46, 139, 86, 0.335);
+                }
+              }
+            }
+
+            span {
+                background: #e0e0e0;
+                font-family: 'Indie Flower', ;
+                height: 20px;
+                font-size: 20px;
+                cursor:pointer;
+                &:hover {
+                    background: pink;
+                }
+            }
+             span, input {
+                 border: .5px solid #eee;
+                 display:inline-block;
+                 padding: .2em .25em;
+                 width: 300px;
+             }
+
+            button {
+                background: transparent;
+                border:none;
+                color:grey;
+                cursor:pointer;
+                padding:0;
+                margin: 0 .75em;
+            }
+
+        }
+    }
+
+}
